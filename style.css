@@ -46,10 +46,11 @@ body {
 /* Overlay Styles - Using percentages for responsiveness */
 .cert-id-overlay {
     position: absolute;
-    top: 5%;
+    top: 8%;
     /* Moved down from 4% */
     right: 5%;
     font-size: clamp(10px, 1.5vw, 12px);
+    font-family: 'Arial', sans-serif;
     color: #555;
 }
 
@@ -59,8 +60,8 @@ body {
     /* Moved down from 55% */
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: clamp(16px, 4vw, 28px);
-    font-weight: bold;
+    font-size: clamp(16px, 4vw, 24px);
+    /* font-weight: bold; */
     color: #333;
     width: 90%;
 }
@@ -71,7 +72,9 @@ body {
     /* Positioned below training duration line */
     left: 50%;
     transform: translateX(-50%);
-    font-size: clamp(16px, 2.8vw, 18px);
+    font-size: clamp(12px, 2vw, 14px);
+    font-family: 'Arial', sans-serif;
+    /* Reduced from clamp(16px, 2.8vw, 18px) */
     /* Doubled from clamp(8px, 1.4vw, 11px) */
     color: #555;
     width: 100%;
@@ -83,8 +86,8 @@ body {
     /* Positioned below the between-date line */
     left: 50%;
     transform: translateX(-50%);
-    font-size: clamp(16px, 2.8vw, 14px);
-    /* Doubled from clamp(8px, 1.4vw, 11px) */
+    font-size: clamp(12px, 2vw, 14px);
+    font-family: 'Arial', sans-serif;
     color: #555;
     width: 100%;
 }
@@ -95,7 +98,8 @@ body {
     top: 2%;
     left: 0;
     right: 0;
-    font-size: clamp(10px, 1.8vw, 14px);
+    font-size: clamp(10px, 1.8vw, 18px);
+    font-family: 'Calibri', sans-serif;
     color: #666;
     padding-bottom: 8px;
     border-bottom: 1px solid #ddd;
