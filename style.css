@@ -61,7 +61,8 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: clamp(14px, 4vw, 32px);
-    font-family: 'Times New Roman', serif;
+    font-family: 'Prompt', 'Times New Roman', serif;
+    font-weight: bold;
     color: #333;
     width: 90%;
 }
@@ -149,7 +150,8 @@ body {
 
 .thai-student-name {
     font-size: clamp(18px, 4vw, 32px);
-    font-family: 'Times New Roman', serif;
+    font-family: 'Prompt', 'Times New Roman', serif;
+    font-weight: bold;
     color: #333;
     margin: 20px 0;
 }
